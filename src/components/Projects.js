@@ -13,11 +13,14 @@ export const Projects = () => {
       title: "Movie Recommendation System",
       description: "A collaborative filtering system using ML.",
       imgUrl: projImg1,
+      githubUrl: "https://github.com/AchrafHaijoubi/Movie-Recommendation-System",
+
     },
     {
       title: "Leaf Classification",
       description: "Using decision trees and SVMs to classify leaves.",
       imgUrl: projImg2,
+      githubUrl: "https://github.com/AchrafHaijoubi/Leaf-Classification"
     },
   ];
 

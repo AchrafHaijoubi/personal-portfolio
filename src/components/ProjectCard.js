@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap"
 
-export const ProjectCard = ({title, description,imgUrl}) =>{
+export const ProjectCard = ({title, description,imgUrl,githubUrl}) =>{
     return (
         
         <Col size={12} sm={6} md={4}>
