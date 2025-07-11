@@ -15,7 +15,10 @@ export const Banner = ()=>{
                         <br /><br />
                         Feel free to explore my portfolio to learn more about my background and the projects I’ve worked on. And don’t hesitate to reach out through the “Let’s Connect” section — I’m always open to exciting collaborations and new opportunities!
                     </p>
-                    <button> Let's Connect <ArrowRightCircle size={25}></ArrowRightCircle></button>
+                    <a href="#contact">
+                        <button> Let's Connect <ArrowRightCircle size={25}></ArrowRightCircle></button>
+                    </a>
+
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={HeaderImage} alt="" />
